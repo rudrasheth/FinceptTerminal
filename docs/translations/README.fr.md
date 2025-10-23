@@ -18,17 +18,17 @@
 
 ## 📥 Téléchargez la dernière version
 
-**Version:**`v3.0.0`\|**Commettre:**`7a750c4`\|**Libéré:**2025-10-22 11:47 UTC
+**Version:**`v3.0.0`\|**Commettre:**`d834bb1`\|**Libéré:**2025-10-23 12:14 UTC
 
 ### 🎯 Téléchargements directs - Cliquez pour télécharger immédiatement !
 
 | Plate-forme    | Architecture           | Téléchargement direct                                                                                                                                             |
 | -------------- | ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 🍎**macOS**    | Apple Silicium (ARM64) | [⬇️**Télécharger .dmg**](https://github.com/Fincept-Corporation/FinceptTerminal/releases/download/v3.0.0-build-41/FinceptTerminal-v3.0.0-macOS-arm64.dmg)         |
-| 🍎**macOS**    | Intel (x64)            | [⬇️**Télécharger .dmg**](https://github.com/Fincept-Corporation/FinceptTerminal/releases/download/v3.0.0-build-41/FinceptTerminal-v3.0.0-macOS-x64.dmg)           |
-| 🐧**Linux**    | x64 (AppImage)         | [⬇️**Télécharger .AppImage**](https://github.com/Fincept-Corporation/FinceptTerminal/releases/download/v3.0.0-build-41/FinceptTerminal-v3.0.0-Linux-x64.AppImage) |
-| 🐧**Linux**    | x64 (Debian)           | [⬇️**Télécharger .deb**](https://github.com/Fincept-Corporation/FinceptTerminal/releases/download/v3.0.0-build-41/FinceptTerminal-v3.0.0-Linux-x64.deb)           |
-| 🪟**Fenêtres** | hshch                  | [⬇️**Télécharger .msi**](https://github.com/Fincept-Corporation/FinceptTerminal/releases/download/v3.0.0-build-41/FinceptTerminal-v3.0.0-Windows-x64.msi)         |
+| 🍎**macOS**    | Apple Silicium (ARM64) | [⬇️**Télécharger .dmg**](https://github.com/Fincept-Corporation/FinceptTerminal/releases/download/v3.0.0-build-51/FinceptTerminal-v3.0.0-macOS-arm64.dmg)         |
+| 🍎**macOS**    | Intel (x64)            | [⬇️**Télécharger .dmg**](https://github.com/Fincept-Corporation/FinceptTerminal/releases/download/v3.0.0-build-51/FinceptTerminal-v3.0.0-macOS-x64.dmg)           |
+| 🐧**Linux**    | x64 (AppImage)         | [⬇️**Télécharger .AppImage**](https://github.com/Fincept-Corporation/FinceptTerminal/releases/download/v3.0.0-build-51/FinceptTerminal-v3.0.0-Linux-x64.AppImage) |
+| 🐧**Linux**    | x64 (Debian)           | [⬇️**Télécharger .deb**](https://github.com/Fincept-Corporation/FinceptTerminal/releases/download/v3.0.0-build-51/FinceptTerminal-v3.0.0-Linux-x64.deb)           |
+| 🪟**Fenêtres** | hshch                  | [⬇️**Télécharger .msi**](https://github.com/Fincept-Corporation/FinceptTerminal/releases/download/v3.0.0-build-51/FinceptTerminal-v3.0.0-Windows-x64.msi)         |
 
 > ✨**Téléchargements en un clic !**Le téléchargement de ces liens commencera immédiatement – ​​aucune connexion GitHub requise !
 
@@ -50,7 +50,7 @@
 
 ## 🎯 Qu'est-ce que Fincept Terminal ?
 
-**Terminal Fincept**est un terminal financier multiplateforme moderne construit avec**Épreuves**,**Réagir**, et**Manuscrit**. Il propose des outils d'analyse financière de niveau institutionnel aux investisseurs particuliers et aux traders, entièrement gratuits et open source.
+**Terminal Fincept**est un terminal financier multiplateforme moderne construit avec**Épreuves**,**React**, et**Manuscrit**. Il propose des outils d'analyse financière de niveau institutionnel aux investisseurs particuliers et aux traders, entièrement gratuits et open source.
 
 Inspiré par Bloomberg et Refinitiv, Fincept Terminal fournit des données de marché en temps réel, des analyses avancées, des informations basées sur l'IA et une interface professionnelle, le tout sans le prix d'une entreprise.
 
@@ -120,7 +120,7 @@ Le script de configuration automatisé :
 
 -   ✅ Installez Node.js LTS (v22.14.0)
 -   ✅ Installer Rust (dernière version stable)
--   ✅ Installer les dépendances du projet
+-   ✅ Install project dependencies
 -   ✅ Configurez tout automatiquement
 
 #### ⚙️**Configuration manuelle**
@@ -220,7 +220,7 @@ npm run tauri build
 -   ✅ Intégration des paiements
 -   ✅ Fonctionnalités du forum
 -   🚧 Données de marché en temps réel
--   🚧 Cartographie avancée
+-   🚧 Advanced charting
 -   🚧 AI assistant
 
 ### **À venir (T2 2025)**
