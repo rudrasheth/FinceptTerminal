@@ -1,13 +1,21 @@
 """
-Market Cycles Analysis Module
-=============================
+===== DATA SOURCES REQUIRED =====
+INPUT:
+  - Economic indicators: GDP, inflation, unemployment, interest rates
+  - Market data: equity indices, bond yields, credit spreads
+  - Sector performance data and housing market indicators
+  - International trade and capital flow data
 
-Implements CFA Level I curriculum for:
-- Business cycle phases and characteristics
-- Credit cycles analysis
-- Resource use, consumer/business activity, housing sector, external trade variations
-- Economic indicators measurement and interpretation
-- Market structure analysis (perfect competition, monopolistic competition, oligopoly, monopoly)
+OUTPUT:
+  - Business cycle phase identification and timing
+  - Credit cycle analysis and turning points
+  - Economic indicator forecasts and leading/lagging relationships
+  - Market structure analysis and competitive dynamics
+
+PARAMETERS:
+  - cycle_detection_method: Algorithm for cycle identification (default: 'threshold')
+  - lookback_period: Historical data period for analysis (default: 5 years)
+  - confidence_level: Statistical confidence for cycle predictions (default: 0.8)
 - Breakeven and shutdown points under different competition types
 - Economies and diseconomies of scale effects
 - Optimal pricing strategies and supply/demand relationships

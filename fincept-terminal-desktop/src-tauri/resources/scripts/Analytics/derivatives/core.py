@@ -1,4 +1,26 @@
 """
+===== DATA SOURCES REQUIRED =====
+INPUT:
+  - Market data: Spot prices, forward prices, interest rates, dividend yields
+  - Instrument data: Contract specifications, exercise dates, strike prices
+  - Volatility data: Implied volatilities, vol surfaces, historical volatilities
+  - Reference data: Day count conventions, compounding methods, calendar data
+
+OUTPUT:
+  - Pricing results: Fair values, Greeks, implied volatilities, confidence intervals
+  - Risk metrics: Delta, gamma, vega, theta, rho calculations
+  - Validation results: Input validation, model validation, error checking
+  - Time calculations: Time to expiry, day count fractions, period calculations
+
+PARAMETERS:
+  - day_count_convention: DayCountConvention = ACT_365 (day count basis)
+  - compounding_method: str = 'continuous' (compounding method)
+  - precision: int = 10 (decimal precision for calculations)
+  - tolerance: float = 1e-10 (numerical tolerance for validations)
+  - base_currency: str = 'USD' (base currency for calculations)
+"""
+
+"""
 Fincept Terminal - Derivatives Core Module
 ==========================================
 

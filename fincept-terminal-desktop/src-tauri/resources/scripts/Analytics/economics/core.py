@@ -1,4 +1,25 @@
 """
+===== DATA SOURCES REQUIRED =====
+INPUT:
+  - Economic data: GDP, inflation, unemployment, interest rates, exchange rates
+  - Market data: Asset prices, bond yields, commodity prices, equity indices
+  - Reference data: Country classifications, currency codes, economic indicators
+  - Calibration data: Historical time series, seasonal adjustments, trend data
+
+OUTPUT:
+  - Base classes: Foundation classes for economic analysis modules
+  - Validation: Input validation, error checking, data quality assessment
+  - Utilities: Common calculations, data transformations, statistical functions
+  - Exceptions: Custom exceptions for economic analysis errors
+
+PARAMETERS:
+  - precision: int = 28 (decimal precision for financial calculations)
+  - base_currency: str = 'USD' (default base currency)
+  - tolerance: float = 1e-10 (numerical tolerance for calculations)
+  - max_iterations: int = 1000 (maximum iterations for convergence algorithms)
+"""
+
+"""
 Economics Module Core Components
 ===============================
 

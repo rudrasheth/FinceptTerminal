@@ -1,6 +1,22 @@
 """
-Fixed Income Analytics - Government Analysis Module
-CFA Level I & II Compliant Government and Municipal Debt Analysis
+===== DATA SOURCES REQUIRED =====
+INPUT:
+  - Bond specifications: coupons, maturities, credit ratings
+  - Market data: interest rates, yield curves, credit spreads
+  - Portfolio holdings and position data
+  - Economic indicators and central bank policy data
+
+OUTPUT:
+  - Fixed income valuation and yield calculations
+  - Duration and convexity risk metrics
+  - Portfolio performance attribution
+  - Credit risk assessment and stress testing results
+
+PARAMETERS:
+  - valuation_method: Yield curve approach (default: "arbitrage_free")
+  - risk_model: Credit risk model (default: "structural")
+  - horizon: Analysis horizon (default: 1 year)
+  - currency: Base currency (default: "USD")
 """
 
 from typing import List, Dict, Optional, Tuple

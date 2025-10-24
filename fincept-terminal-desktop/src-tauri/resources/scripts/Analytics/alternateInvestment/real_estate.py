@@ -1,4 +1,28 @@
 """
+===== DATA SOURCES REQUIRED =====
+INPUT:
+  - Property data: Acquisition prices, current market values, rental income, operating expenses
+  - Market data: Comparable sales, market cap rates, vacancy rates, rental trends
+  - REIT data: Share prices, dividend yields, FFO/AFFO metrics, portfolio composition
+  - Infrastructure data: Project cash flows, regulatory frameworks, concession agreements
+
+OUTPUT:
+  - Property valuation: NOI calculations, cap rates, DCF models, sales comparison analysis
+  - REIT analysis: NAV per share, FFO/AFFO metrics, dividend sustainability, premium/discount analysis
+  - Infrastructure valuation: Project IRR, cash flow stability, regulatory risk assessment
+  - Portfolio metrics: Diversification analysis, geographic exposure, sector allocation
+
+PARAMETERS:
+  - property_type: RealEstateType = OFFICE (office, residential, retail, industrial, hospitality)
+  - acquisition_price: Decimal = None (property acquisition cost)
+  - current_market_value: Decimal = None (current property market value)
+  - gross_rental_income: Decimal = None (annual gross rental income)
+  - operating_expenses: Decimal = None (annual operating expenses)
+  - vacancy_rate: Decimal = 0.05 (property vacancy rate)
+  - cap_rate: Decimal = None (property capitalization rate)
+"""
+
+"""
 Real Estate Module - Real Estate, REITs, and Infrastructure Analytics
 CFA Institute Standards Compliant
 """

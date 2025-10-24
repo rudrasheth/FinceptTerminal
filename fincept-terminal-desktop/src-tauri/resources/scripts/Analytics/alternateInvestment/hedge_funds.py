@@ -1,4 +1,29 @@
 """
+===== DATA SOURCES REQUIRED =====
+INPUT:
+  - Fund performance data: Monthly/quarterly returns, NAV history
+  - Strategy metrics: Gross/net exposure, leverage, position data
+  - Market benchmarks: Equity indices, bond yields, volatility indices
+  - Reference data: Hedge fund indices, strategy peer groups
+
+OUTPUT:
+  - Strategy analysis: Performance metrics, risk-adjusted returns
+  - Risk metrics: Volatility, drawdowns, VaR, stress testing
+  - Performance attribution: Alpha, beta, factor exposure analysis
+  - Due diligence: Liquidity analysis, capacity assessment, operational risk
+
+PARAMETERS:
+  - strategy: HedgeFundStrategy = LONG_SHORT_EQUITY (hedge fund strategy type)
+  - gross_exposure: Decimal = None (total gross exposure percentage)
+  - net_exposure: Decimal = None (net market exposure percentage)
+  - leverage: Decimal = 1.0 (fund leverage multiplier)
+  - high_water_mark: Decimal = 100 (high water mark for performance fees)
+  - hurdle_rate: Decimal = HF_HURDLE_RATE_DEFAULT (performance hurdle rate)
+  - redemption_frequency: str = 'quarterly' (investor redemption frequency)
+  - lock_up_period: int = 12 (investor lock-up period in months)
+"""
+
+"""
 Hedge Funds Module - All Hedge Fund Strategies and Analysis
 CFA Institute Standards Compliant
 """

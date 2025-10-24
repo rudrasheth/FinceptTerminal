@@ -1,6 +1,22 @@
 """
-Economics and Investment Markets Module
-CFA Level II - Economics and Investment Markets
+===== DATA SOURCES REQUIRED =====
+INPUT:
+  - Portfolio holdings and allocation data
+  - Asset returns and performance history
+  - Market benchmarks and risk factor data
+  - Client preferences and investment constraints
+
+OUTPUT:
+  - Portfolio performance metrics and attribution analysis
+  - Risk assessment and diversification analysis
+  - Rebalancing recommendations and optimization results
+  - Compliance monitoring and regulatory reporting
+
+PARAMETERS:
+  - optimization_method: Mean-variance, risk parity, etc. (default: "mean_variance")
+  - risk_tolerance: Client risk tolerance level (default: "moderate")
+  - rebalance_frequency: Portfolio review frequency (default: "quarterly")
+  - tracking_error: Active risk budget (default: 0.04)
 """
 
 import numpy as np

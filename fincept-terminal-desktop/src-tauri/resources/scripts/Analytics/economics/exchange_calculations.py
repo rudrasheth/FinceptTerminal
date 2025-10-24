@@ -1,4 +1,25 @@
 """
+===== DATA SOURCES REQUIRED =====
+INPUT:
+  - Exchange rate data: Spot rates, forward points, cross-rate tables
+  - Interest rate data: Domestic and foreign risk-free rates, yield curves
+  - Market data: Bid-ask spreads, trading volumes, market depth
+  - Reference data: Currency conventions, quoting conventions, market practices
+
+OUTPUT:
+  - Cross rates: Calculated cross exchange rates and arbitrage checks
+  - Forward rates: Forward exchange rates and premium/discount analysis
+  - Percentage changes: Currency appreciation/depreciation calculations
+  - Arbitrage analysis: Triangular arbitrage opportunities and profit calculations
+
+PARAMETERS:
+  - precision: int = 8 (decimal precision for exchange rate calculations)
+  - base_currency: str = 'USD' (base currency for cross-rate calculations)
+  - quote_convention: str = 'direct' (direct or indirect quoting convention)
+  - arbitrage_threshold: float = 0.0001 (minimum arbitrage profit threshold)
+"""
+
+"""
 Exchange Rate Calculations Module
 =================================
 

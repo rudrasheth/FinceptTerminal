@@ -1,7 +1,22 @@
 """
-Balance Sheet Analyzer
-Comprehensive analysis of balance sheets covering all CFA Level I & II requirements.
-Includes asset analysis, liability evaluation, equity assessment, and financial position quality.
+===== DATA SOURCES REQUIRED =====
+INPUT:
+  - Company financial statements: income statement, balance sheet, cash flow
+  - Industry benchmarks and competitor financial data
+  - Market data: stock prices, trading volumes, market multiples
+  - Economic indicators and regulatory environment data
+
+OUTPUT:
+  - Comprehensive financial analysis and ratio calculations
+  - Trend analysis and performance benchmarks
+  - Risk assessment and early warning indicators
+  - Investment recommendations and valuation insights
+
+PARAMETERS:
+  - analysis_period: Historical analysis period (default: 3 years)
+  - benchmark_index: Industry benchmark (default: "sector_index")
+  - reporting_currency: Base currency (default: "local_currency")
+  - normalization_method: Data normalization approach (default: "industry_adjusted")
 """
 
 import numpy as np

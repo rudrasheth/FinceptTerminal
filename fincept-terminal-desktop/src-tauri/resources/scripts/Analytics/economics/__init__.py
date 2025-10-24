@@ -1,13 +1,22 @@
 """
-FinceptTerminal Economics Module
-===============================
+===== DATA SOURCES REQUIRED =====
+INPUT:
+  - Economic indicators: GDP, inflation, unemployment rates
+  - Market data: interest rates, exchange rates, equity indices
+  - Government data: fiscal policy, monetary policy announcements
+  - International trade and capital flow data
 
-A comprehensive economics analysis module implementing CFA Level I & II curriculum
-for professional financial analysis and investment decision-making.
+OUTPUT:
+  - Economic analysis and forecasting results
+  - Market impact assessment and scenario analysis
+  - Policy recommendations and timing analysis
+  - Risk assessment and early warning indicators
 
-Author: Fincept Corporation
-License: MIT
-Version: 1.0.0
+PARAMETERS:
+  - analysis_horizon: Forecast period (default: 2 years)
+  - confidence_level: Statistical confidence (default: 0.9)
+  - frequency: Data frequency (default: "monthly")
+  - region: Geographic coverage (default: "global")
 """
 
 from .core import (

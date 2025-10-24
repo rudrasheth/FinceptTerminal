@@ -1,4 +1,25 @@
 """
+===== DATA SOURCES REQUIRED =====
+INPUT:
+  - Return data: Historical returns series for individual assets and portfolios
+  - Market data: Trading volumes, bid-ask spreads, market capitalizations
+  - Correlation data: Asset return correlations, historical correlation breakdowns
+  - Portfolio data: Asset weights, exposures, concentration metrics
+
+OUTPUT:
+  - VaR analysis: Historical, parametric, and Monte Carlo Value at Risk calculations
+  - Stress testing: Historical stress scenarios, hypothetical scenarios, worst-case analysis
+  - Scenario analysis: Market shock scenarios, asset class specific scenarios
+  - Risk metrics: Correlation analysis, liquidity risk, drawdown analysis, risk attribution
+
+PARAMETERS:
+  - confidence_levels: List[Decimal] = None (VaR confidence levels e.g., 95%, 99%)
+  - time_horizons: List[int] = None (risk measurement horizons in days)
+  - stress_scenarios: Dict = {} (custom stress test scenarios)
+  - liquidity_thresholds: Dict = {} (liquidity risk assessment thresholds)
+"""
+
+"""
 Risk Analyzer Module - Comprehensive Risk Management for Alternative Investments
 CFA Institute Standards Compliant
 """

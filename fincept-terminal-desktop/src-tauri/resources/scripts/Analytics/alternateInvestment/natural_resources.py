@@ -1,4 +1,27 @@
 """
+===== DATA SOURCES REQUIRED =====
+INPUT:
+  - Commodity data: Spot prices, futures curves, storage costs, convenience yields
+  - Land data: Property values, rental rates, agricultural yields, location metrics
+  - Energy data: Production volumes, consumption patterns, price forecasts, reserves
+  - Market data: Interest rates, inflation expectations, economic growth indicators
+
+OUTPUT:
+  - Commodity analysis: Futures pricing, roll yields, basis analysis, storage optimization
+  - Land valuation: Property appraisal, rental income analysis, agricultural productivity
+  - Energy investments: Reserve valuation, production optimization, market timing analysis
+  - Risk metrics: Commodity volatility, weather risk, regulatory risk, correlation analysis
+
+PARAMETERS:
+  - commodity_sector: CommoditySector = ENERGY (energy, metals, agriculture, livestock)
+  - spot_price: Decimal = None (current spot price of commodity)
+  - futures_prices: Dict = {} (futures contract prices by expiry)
+  - storage_cost: Decimal = COMMODITY_STORAGE_COST_TYPICAL (annual storage cost percentage)
+  - convenience_yield: Decimal = 0 (convenience yield benefit)
+  - contract_size: Decimal = 1 (futures contract size multiplier)
+"""
+
+"""
 Natural Resources Module - Commodities, Land Investments, Energy Analytics
 CFA Institute Standards Compliant
 """

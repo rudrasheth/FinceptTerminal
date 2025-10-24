@@ -1,4 +1,26 @@
 """
+===== DATA SOURCES REQUIRED =====
+INPUT:
+  - External data sources: Bloomberg, Refinitiv, Yahoo Finance, Alpha Vantage APIs
+  - Manual data: User-provided market data for testing and特殊情况
+  - Cached data: Previously fetched data stored for performance
+  - Reference data: Symbol mappings, currency pairs, market conventions
+
+OUTPUT:
+  - Spot prices: Current market prices for equities, commodities, currencies
+  - Interest rates: Risk-free rates, yield curves, discount factors
+  - Dividend data: Dividend yields, dividend schedules, forecast data
+  - Volatility data: Implied volatilities, volatility surfaces, historical volatilities
+
+PARAMETERS:
+  - default_provider: DataProvider = MANUAL (default data source)
+  - cache_enabled: bool = True (enable data caching for performance)
+  - cache_ttl: int = 3600 (cache time-to-live in seconds)
+  - retry_attempts: int = 3 (number of retry attempts for failed requests)
+  - timeout: int = 30 (request timeout in seconds)
+"""
+
+"""
 Fincept Terminal - Market Data Abstraction Layer
 ===============================================
 

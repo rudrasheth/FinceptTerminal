@@ -1,13 +1,23 @@
 # -*- coding: utf-8 -*-
 """
-Technical Indicators Module for Fincept Terminal
-===============================================
+===== DATA SOURCES REQUIRED =====
+INPUT:
+  - Relevant data inputs for analysis
+  - Market data and economic indicators
+  - Historical performance data
+  - Model parameters and assumptions
 
-This module contains 10 essential technical analysis indicators commonly used in financial markets.
-Each indicator is implemented with proper error handling and documentation.
+OUTPUT:
+  - Analysis results and recommendations
+  - Risk metrics and performance attribution
+  - Visualizations and reporting outputs
+  - Validation and diagnostic information
 
-Author: Fincept Corporation
-Version: 1.0.0
+PARAMETERS:
+  - analysis_method: Analytical approach (default: "standard")
+  - confidence_level: Statistical confidence (default: 0.95)
+  - time_horizon: Analysis period (default: 1 year)
+  - base_currency: Reporting currency (default: "USD")
 """
 
 import numpy as np

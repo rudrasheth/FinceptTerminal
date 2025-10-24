@@ -1,4 +1,25 @@
 """
+===== DATA SOURCES REQUIRED =====
+INPUT:
+  - GDP data: Real GDP, nominal GDP, GDP components, potential GDP estimates
+  - Factor inputs: Labor force, capital stock, human capital, R&D investment
+  - Productivity data: Total factor productivity, labor productivity, technology indicators
+  - Demographic data: Population growth, age structure, labor force participation rates
+
+OUTPUT:
+  - Growth decomposition: Capital deepening, labor force growth, TFP contributions
+  - Potential output: Long-run growth trends, output gap estimates, capacity utilization
+  - Growth forecasts: Growth accounting models, convergence analysis, sustainability checks
+  - Investment implications: Equity market growth, fixed income yield impacts, sector analysis
+
+PARAMETERS:
+  - analysis_period: int = 20 (years for long-term growth analysis)
+  - depreciation_rate: float = 0.05 (annual capital depreciation rate)
+  - convergence_speed: float = 0.02 (speed of convergence to steady state)
+  - education_premium: float = 0.08 (return to human capital investment)
+"""
+
+"""
 Economic Growth Analysis Module
 ===============================
 

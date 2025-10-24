@@ -1,4 +1,26 @@
 """
+===== DATA SOURCES REQUIRED =====
+INPUT:
+  - Market data: Price series, NAV history, market values over time
+  - Cash flows: Contributions, withdrawals, distributions, fee payments
+  - Benchmark data: Index returns, peer group performance, factor returns
+  - Reference data: Risk-free rates, market premiums, volatility estimates
+
+OUTPUT:
+  - Performance measures: Time-weighted returns, money-weighted returns, since inception
+  - Risk metrics: Sharpe ratio, Sortino ratio, information ratio, maximum drawdown
+  - Attribution analysis: Factor exposures, sector allocation, security selection effects
+  - Fee analysis: Gross vs net returns, expense ratios, performance fee impact
+
+PARAMETERS:
+  - benchmark_return: Decimal = None (benchmark return for relative performance)
+  - risk_free_rate: Decimal = None (risk-free rate for risk-adjusted calculations)
+  - volatility_floor: Decimal = None (minimum volatility assumption)
+  - fee_structure: Dict = {} (management fees, performance fees, other expenses)
+  - reporting_frequency: str = 'monthly' (performance reporting frequency)
+"""
+
+"""
 Performance Metrics Module for Alternative Investments
 Comprehensive performance analysis, attribution, and benchmarking
 CFA Institute Standards Compliant

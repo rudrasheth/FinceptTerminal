@@ -1,9 +1,22 @@
 """
-Data Validator Module
-Comprehensive input validation and data quality control for Fincept Terminal
+===== DATA SOURCES REQUIRED =====
+INPUT:
+  - Market data: price series, volumes, volatility surfaces
+  - Alternative data: sentiment, news, macro indicators
+  - Model parameters and calibration data
+  - Backtesting framework and performance metrics
 
-This module provides robust validation, cleaning, and quality assessment
-for all types of financial data used in quantitative analysis.
+OUTPUT:
+  - Quantitative model signals and predictions
+  - Backtesting results and performance statistics
+  - Risk metrics and factor exposure analysis
+  - Model validation and diagnostic reports
+
+PARAMETERS:
+  - model_type: Statistical, ML, or hybrid approach (default: "statistical")
+  - lookback_period: Training data window (default: 252 days)
+  - confidence_level: Statistical confidence (default: 0.95)
+  - validation_method: Cross-validation approach (default: "walk_forward")
 """
 
 import numpy as np

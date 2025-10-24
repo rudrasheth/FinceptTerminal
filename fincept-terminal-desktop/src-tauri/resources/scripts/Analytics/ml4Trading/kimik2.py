@@ -8,15 +8,26 @@ from datetime import datetime
 
 @dataclass
 class OpenRouterConfig:
-    """Configuration for OpenRouter API"""
-    base_url: str = "https://openrouter.ai/api/v1"
-    model: str = "moonshotai/kimi-k2:free"
-    timeout: int = 30
-    max_retries: int = 3
-    retry_delay: float = 1.0
+"""
+===== DATA SOURCES REQUIRED =====
+INPUT:
+  - Market data: OHLCV, order book, trade data
+  - Alternative data: news, sentiment, social media
+  - Feature engineering parameters and transforms
+  - Model training and validation datasets
 
-class OpenRouterClient:
-    """Enhanced OpenRouter API client with error handling and retries"""
+OUTPUT:
+  - Machine learning trading signals and predictions
+  - Model performance metrics and validation results
+  - Trading strategy recommendations and risk metrics
+  - Feature importance and model interpretability analysis
+
+PARAMETERS:
+  - model_algorithm: ML algorithm choice (default: "gradient_boosting")
+  - training_window: Training data size (default: 1000 days)
+  - prediction_horizon: Signal generation horizon (default: 1 day)
+  - feature_set: Feature selection method (default: "auto")
+"""
     
     def __init__(self, api_key: Optional[str] = None, config: Optional[OpenRouterConfig] = None):
         self.config = config or OpenRouterConfig()
