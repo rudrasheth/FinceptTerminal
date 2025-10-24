@@ -91,7 +91,7 @@ Bloomberg 및 Refinitiv에서 영감을 받은 Fincept Terminal은 기업 가격
 
 ### **옵션 3: 소스에서 빌드**
 
-#### 🚀**빠른 설정(자동)**
+#### 🚀 **빠른 설정(자동)**
 
 **Windows의 경우:**
 
@@ -363,7 +363,7 @@ MIT 라이센스 - 참조[라이센스.txt](https://github.com/Fincept-Corporati
 
 ## 🙏 감사의 말씀
 
-다음으로 제작:[고난](https://tauri.app/)•[반응하다](https://react.dev/)•[녹](https://www.rust-lang.org/)•[순풍CSS](https://tailwindcss.com/)•[기수 UI](https://www.radix-ui.com/)
+다음으로 제작:[고난](https://tauri.app/)•[반응하다](https://react.dev/)•[녹](https://www.rust-lang.org/)•[TailwindCSS](https://tailwindcss.com/)•[기수 UI](https://www.radix-ui.com/)
 
 * * *
 

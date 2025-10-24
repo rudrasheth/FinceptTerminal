@@ -6,7 +6,7 @@
 
 [![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/intent/tweet?text=Check%20out%20FinceptTerminal&url=https%3A//github.com/Fincept-Corporation/FinceptTerminal/)[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/sharing/share-offsite/?url=https%3A//github.com/Fincept-Corporation/FinceptTerminal/)[![Facebook](https://img.shields.io/badge/-Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white)](https://www.facebook.com/sharer/sharer.php?u=https%3A//github.com/Fincept-Corporation/FinceptTerminal/)[![Reddit](https://img.shields.io/badge/-Reddit-FF4500?style=flat-square&logo=reddit&logoColor=white)](https://www.reddit.com/submit?url=https%3A//github.com/Fincept-Corporation/FinceptTerminal/&title=FinceptTerminal)[![WhatsApp](https://img.shields.io/badge/-WhatsApp-25D366?style=flat-square&logo=whatsapp&logoColor=white)](https://api.whatsapp.com/send?text=Check%20out%20FinceptTerminal%3A%20https%3A//github.com/Fincept-Corporation/FinceptTerminal/)
 
-[Inglés](README.md)\|[Español](docs/translations/README.es.md)\|[Chino](docs/translations/README.zh-CN.md)\|[japonés](docs/translations/README.ja.md)\|[Francés](docs/translations/README.fr.md)\|[Alemán](docs/translations/README.de.md)\|[coreano](docs/translations/README.ko.md)\|[hindi](docs/translations/README.hi.md)
+[Inglés](README.md)\|[Español](docs/translations/README.es.md)\|[中文](docs/translations/README.zh-CN.md)\|[japonés](docs/translations/README.ja.md)\|[Francés](docs/translations/README.fr.md)\|[Alemán](docs/translations/README.de.md)\|[coreano](docs/translations/README.ko.md)\|[hindi](docs/translations/README.hi.md)
 
 ### _Plataforma de análisis financiero profesional_
 
@@ -165,7 +165,7 @@ npm run tauri build
 
 📊 Gráficos avanzados (más de 50 indicadores)<br>💼 Investigación y finanzas de la empresa<br>📋 Seguimiento de cartera de múltiples cuentas<br>⚡ Estrategia de backtesting<br>🔔 Precio personalizado y alertas técnicas
 
-### 🌐 Perspectivas globales
+### 🌐 Global Insights
 
 🏛️ Datos económicos (tasas, PIB, inflación)<br>🗺️ Rutas comerciales y logística marítima<br>🌍 Evaluación de riesgos geopolíticos
 
