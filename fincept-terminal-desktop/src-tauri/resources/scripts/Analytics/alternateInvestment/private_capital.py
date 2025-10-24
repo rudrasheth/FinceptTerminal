@@ -1,4 +1,27 @@
 """
+===== DATA SOURCES REQUIRED =====
+INPUT:
+  - Fund data: Capital calls, distributions, NAV updates, vintage year information
+  - Commitment data: Total fund commitments, called capital, unfunded commitments
+  - Performance data: Quarterly valuations, exit proceeds, cash flow timing
+  - Benchmark data: Private equity indices, vintage year comparisons, strategy benchmarks
+
+OUTPUT:
+  - Private equity metrics: IRR, MOIC, DPI, RVPI, TVPI, cash flow analysis
+  - Private debt metrics: Yield analysis, credit metrics, default probabilities, recovery rates
+  - Portfolio analysis: Diversification, vintage year performance, strategy allocation
+  - Due diligence: Fund manager analysis, track record, operational risk assessment
+
+PARAMETERS:
+  - fund_life: int = PE_TYPICAL_FUND_LIFE (fund investment period in years)
+  - vintage_year: int = None (fund vintage year for benchmarking)
+  - commitment: Decimal = None (total capital commitment to fund)
+  - called_capital: Decimal = 0 (cumulative capital called by fund)
+  - distributed_capital: Decimal = 0 (cumulative distributions received)
+  - current_nav: Decimal = 0 (current net asset value)
+"""
+
+"""
 Private Capital Module - Private Equity and Private Debt Analytics
 CFA Institute Standards Compliant
 """

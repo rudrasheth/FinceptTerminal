@@ -1,18 +1,22 @@
 """
-Machine Learning for Trading (ML4T) Comprehensive Analytics Module
-================================================================
+===== DATA SOURCES REQUIRED =====
+INPUT:
+  - Market data: OHLCV, order book, trade data
+  - Alternative data: news, sentiment, social media
+  - Feature engineering parameters and transforms
+  - Model training and validation datasets
 
-A complete implementation covering all aspects of the ML4T workflow:
-- Data acquisition and preprocessing
-- Feature engineering and alpha factors
-- Traditional and deep learning models
-- Strategy development and backtesting
-- Risk management and portfolio optimization
-- Alternative data integration
-- Performance evaluation
+OUTPUT:
+  - Machine learning trading signals and predictions
+  - Model performance metrics and validation results
+  - Trading strategy recommendations and risk metrics
+  - Feature importance and model interpretability analysis
 
-Author: ML4T Analytics Framework
-Version: 2.0 (Based on ML4T 2nd Edition)
+PARAMETERS:
+  - model_algorithm: ML algorithm choice (default: "gradient_boosting")
+  - training_window: Training data size (default: 1000 days)
+  - prediction_horizon: Signal generation horizon (default: 1 day)
+  - feature_set: Feature selection method (default: "auto")
 """
 
 import numpy as np

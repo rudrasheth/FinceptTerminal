@@ -1,4 +1,28 @@
 """
+===== DATA SOURCES REQUIRED =====
+INPUT:
+  - Market data: Price history, trading volumes, market capitalization
+  - Asset parameters: Asset type, blockchain, supply metrics, staking yields
+  - Reference data: Crypto volatility floors, risk-free rates, benchmark data
+
+OUTPUT:
+  - Fundamental metrics: Price per token, market cap, inflation rates, liquidity tiers
+  - Risk analysis: Volatility metrics, risk-adjusted returns, correlation analysis
+  - Valuation: DCF models, protocol revenue multiples, network value metrics
+  - Portfolio integration: Optimal allocation, risk contribution, stress testing
+
+PARAMETERS:
+  - asset_type: str = 'cryptocurrency' (cryptocurrency, defi_token, nft, stablecoin)
+  - blockchain: str = 'bitcoin' (blockchain platform)
+  - market_cap: Decimal = None (total market capitalization)
+  - circulating_supply: Decimal = None (current circulating supply)
+  - total_supply: Decimal = None (total possible supply)
+  - trading_volume_24h: Decimal = None (24-hour trading volume)
+  - staking_yield: Decimal = None (annual staking yield for PoS tokens)
+  - protocol_revenue: Decimal = None (annual protocol revenue for DeFi tokens)
+"""
+
+"""
 Digital Assets Module - Cryptocurrency, Blockchain, DeFi Analytics
 CFA Institute Standards Compliant
 """

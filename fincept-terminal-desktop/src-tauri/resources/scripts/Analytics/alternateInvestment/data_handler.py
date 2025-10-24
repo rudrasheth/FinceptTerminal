@@ -1,7 +1,22 @@
 """
-Data Handler Module for Alternative Investments Analytics
-Handles data ingestion, validation, and standardization from multiple sources
-CFA Institute Standards Compliant
+===== DATA SOURCES REQUIRED =====
+INPUT:
+  - Raw alternative investment data from multiple sources
+  - Time series data: prices, NAVs, cash flows
+  - Portfolio holdings and transaction records
+  - Market data for benchmarking and risk calculations
+
+OUTPUT:
+  - Cleaned and validated alternative investment datasets
+  - Standardized cash flow series and performance metrics
+  - Portfolio holdings with proper classification
+  - Market data aligned with investment timeframes
+
+PARAMETERS:
+  - data_sources: List of approved data providers
+  - validation_rules: Data quality and completeness rules
+  - frequency: Data frequency (daily, monthly, quarterly)
+  - currency_handling: Currency conversion and normalization methods
 """
 
 import pandas as pd

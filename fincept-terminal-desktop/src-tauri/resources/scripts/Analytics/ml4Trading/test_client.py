@@ -1,7 +1,23 @@
 #!/usr/bin/env python3
 """
-Test script for the enhanced OpenRouter API client
-Run this to verify your setup and test basic functionality
+===== DATA SOURCES REQUIRED =====
+INPUT:
+  - Market data: OHLCV, order book, trade data
+  - Alternative data: news, sentiment, social media
+  - Feature engineering parameters and transforms
+  - Model training and validation datasets
+
+OUTPUT:
+  - Machine learning trading signals and predictions
+  - Model performance metrics and validation results
+  - Trading strategy recommendations and risk metrics
+  - Feature importance and model interpretability analysis
+
+PARAMETERS:
+  - model_algorithm: ML algorithm choice (default: "gradient_boosting")
+  - training_window: Training data size (default: 1000 days)
+  - prediction_horizon: Signal generation horizon (default: 1 day)
+  - feature_set: Feature selection method (default: "auto")
 """
 
 import os

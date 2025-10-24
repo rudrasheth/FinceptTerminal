@@ -1,6 +1,22 @@
 """
-Data Provider Module for Fincept Terminal Core Analytics
-Handles all data source operations with provider abstraction and fallback mechanisms
+===== DATA SOURCES REQUIRED =====
+INPUT:
+  - Company financial data: income statements, balance sheets, cash flows
+  - Market data: stock prices, trading volumes, market indices
+  - Industry data and competitive landscape information
+  - Economic indicators and market sentiment data
+
+OUTPUT:
+  - Equity valuation results and fair value estimates
+  - Financial statement analysis and key ratios
+  - Investment recommendations and risk assessments
+  - Portfolio construction and optimization suggestions
+
+PARAMETERS:
+  - valuation_method: DCF, multiples, or hybrid approach (default: "hybrid")
+  - discount_rate: Cost of capital assumption (default: 0.10)
+  - growth_assumptions: Long-term growth rates (default: "industry_average")
+  - risk_adjustment: Risk premium methodology (default: "capm")
 """
 
 import pandas as pd

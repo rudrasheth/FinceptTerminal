@@ -1,11 +1,22 @@
 """
-Advanced Quantitative Modules
-Comprehensive time series analysis, machine learning, and sampling methods
+===== DATA SOURCES REQUIRED =====
+INPUT:
+  - Market data: price series, volumes, volatility surfaces
+  - Alternative data: sentiment, news, macro indicators
+  - Model parameters and calibration data
+  - Backtesting framework and performance metrics
 
-This module combines 12 advanced quantitative analysis modules:
-- Time Series Analysis (4 modules)
-- Machine Learning (4 modules)
-- Sampling Methods (4 modules)
+OUTPUT:
+  - Quantitative model signals and predictions
+  - Backtesting results and performance statistics
+  - Risk metrics and factor exposure analysis
+  - Model validation and diagnostic reports
+
+PARAMETERS:
+  - model_type: Statistical, ML, or hybrid approach (default: "statistical")
+  - lookback_period: Training data window (default: 252 days)
+  - confidence_level: Statistical confidence (default: 0.95)
+  - validation_method: Cross-validation approach (default: "walk_forward")
 """
 
 import numpy as np

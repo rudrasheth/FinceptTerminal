@@ -1,4 +1,27 @@
 """
+===== DATA SOURCES REQUIRED =====
+INPUT:
+  - Market data: Spot prices, interest rate curves, dividend yields, currency rates
+  - Instrument data: Contract specifications, notional amounts, payment frequencies
+  - Carry data: Storage costs, convenience yields, repo rates, borrowing costs
+  - Reference data: Day count conventions, holiday calendars, market conventions
+
+OUTPUT:
+  - Forward pricing: Forward prices, futures prices, cost of carry calculations
+  - Swap valuations: Fixed-for-floating swaps, currency swaps, equity swaps
+  - Par rates: Par swap rates, forward rates, discount factors
+  - Arbitrage analysis: Cash-and-carry arbitrage, reverse cash-and-carry arbitrage
+
+PARAMETERS:
+  - spot_price: float = None (current spot price of underlying)
+  - risk_free_rate: float = None (risk-free interest rate)
+  - dividend_yield: float = 0.0 (continuous dividend yield)
+  - storage_cost: float = 0.0 (annual storage cost percentage)
+  - convenience_yield: float = 0.0 (annual convenience yield)
+  - repo_rate: float = None (repurchase agreement rate)
+"""
+
+"""
 Fincept Terminal - Forward Commitments Module
 ============================================
 

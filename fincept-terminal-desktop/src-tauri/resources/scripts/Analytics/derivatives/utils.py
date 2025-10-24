@@ -1,4 +1,26 @@
 """
+===== DATA SOURCES REQUIRED =====
+INPUT:
+  - Date data: Holiday calendars, business day conventions, tenor specifications
+  - Market data: Price series, return data, volatility surfaces, yield curves
+  - Mathematical data: Function definitions, derivative functions, optimization parameters
+  - Reference data: Day count conventions, interpolation methods, statistical parameters
+
+OUTPUT:
+  - Date calculations: Business day adjustments, year fractions, tenor calculations
+  - Statistical functions: Normal distributions, volatility calculations, correlation matrices
+  - Interpolation: Yield curve interpolation, surface construction, smoothing methods
+  - Optimization: Root finding, numerical solutions, calibration algorithms
+
+PARAMETERS:
+  - interpolation_method: InterpolationMethod = LINEAR (interpolation method)
+  - optimization_method: OptimizationMethod = BRENT (optimization algorithm)
+  - country: str = 'US' (country for holiday calendar)
+  - tolerance: float = 1e-10 (numerical tolerance)
+  - max_iterations: int = 1000 (maximum optimization iterations)
+"""
+
+"""
 Fincept Terminal - Utilities Module
 =================================
 

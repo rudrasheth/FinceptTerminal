@@ -1,4 +1,25 @@
 """
+===== DATA SOURCES REQUIRED =====
+INPUT:
+  - External APIs: World Bank, IMF, central banks, statistical agencies
+  - Market data: Bloomberg, Reuters, Yahoo Finance data feeds
+  - Manual input: User-provided economic data and calibrations
+  - Historical data: Time series databases, archival economic data
+
+OUTPUT:
+  - Standardized data: Unified format across all economic indicators
+  - Validated data: Quality-checked, error-filtered economic time series
+  - Processed data: Seasonally adjusted, trend-filtered, gap-filled series
+  - Metadata: Data sources, update frequencies, quality metrics
+
+PARAMETERS:
+  - data_source: str = 'manual' (primary data source provider)
+  - update_frequency: str = 'daily' (data update frequency)
+  - quality_threshold: float = 0.95 (minimum data quality threshold)
+  - cache_enabled: bool = True (enable data caching for performance)
+"""
+
+"""
 Data Handler Module
 ===================
 

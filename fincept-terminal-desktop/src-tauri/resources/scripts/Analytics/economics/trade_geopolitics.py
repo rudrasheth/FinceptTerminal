@@ -1,8 +1,22 @@
 """
-Trade & Geopolitics Analysis Module
-===================================
+===== DATA SOURCES REQUIRED =====
+INPUT:
+  - International trade data: imports, exports, trade balances
+  - Geopolitical risk indicators and event data
+  - Currency exchange rates and cross-border capital flows
+  - Commodity prices and global supply chain data
 
-Implements CFA Level I & II curriculum:
+OUTPUT:
+  - Trade pattern analysis and competitive advantage assessment
+  - Geopolitical risk impact on markets and economies
+  - Currency analysis and exchange rate forecasts
+  - Global supply chain risk assessment and mitigation strategies
+
+PARAMETERS:
+  - analysis_scope: Geographic coverage (default: 'global')
+  - time_horizon: Forecast period (default: 2 years)
+  - risk_weighting: Geopolitical risk factors weighting (default: 'balanced')
+  - currency_base: Base currency for analysis (default: 'USD')
 - International trade benefits and costs
 - Trade restrictions (tariffs, quotas, export subsidies) and economic implications
 - Trading blocs, common markets, economic unions motivations/advantages

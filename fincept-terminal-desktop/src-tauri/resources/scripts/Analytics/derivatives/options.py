@@ -1,4 +1,27 @@
 """
+===== DATA SOURCES REQUIRED =====
+INPUT:
+  - Market data: Spot prices, strike prices, time to expiry, volatility estimates
+  - Interest rate data: Risk-free rates, discount factors, yield curve data
+  - Dividend data: Dividend yields, discrete dividends, ex-dividend dates
+  - Reference data: Option specifications, exercise styles, settlement methods
+
+OUTPUT:
+  - Option prices: Fair values for calls and puts using various pricing models
+  - Greeks: Delta, gamma, vega, theta, rho, vanna, volga calculations
+  - Implied volatility: Volatility implied by market option prices
+  - Hedge ratios: Optimal hedge ratios for delta hedging strategies
+
+PARAMETERS:
+  - spot_price: float = None (current underlying price)
+  - strike_price: float = None (option strike price)
+  - time_to_expiry: float = None (time to expiration in years)
+  - volatility: float = None (annualized volatility)
+  - risk_free_rate: float = None (risk-free interest rate)
+  - dividend_yield: float = 0.0 (dividend yield)
+"""
+
+"""
 Fincept Terminal - Options Valuation Module
 ==========================================
 

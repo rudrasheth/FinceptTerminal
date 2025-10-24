@@ -1,4 +1,25 @@
 """
+===== DATA SOURCES REQUIRED =====
+INPUT:
+  - Balance of payments data: Current account, capital account, financial account flows
+  - FX market data: Exchange rates, bid-ask spreads, trading volumes, forward points
+  - Investment flow data: FDI, portfolio investment, reserve assets, other investments
+  - Regulatory data: Capital controls, exchange rate regimes, intervention data
+
+OUTPUT:
+  - Capital flow analysis: Flow types, trends, sustainability assessments
+  - FX market impact: Exchange rate effects, liquidity analysis, market structure
+  - Policy implications: Capital restriction effectiveness, exchange rate regime analysis
+  - Risk assessment: Currency crisis indicators, flow volatility, contagion risk
+
+PARAMETERS:
+  - base_currency: str = 'USD' (base currency for calculations)
+  - analysis_period: str = '1Y' (time period for trend analysis)
+  - flow_threshold: float = 0.05 (threshold for significant flow changes)
+  - volatility_window: int = 30 (window for volatility calculations)
+"""
+
+"""
 Capital Flows & FX Market Analysis Module
 =========================================
 

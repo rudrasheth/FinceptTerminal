@@ -1,4 +1,26 @@
 """
+===== DATA SOURCES REQUIRED =====
+INPUT:
+  - Market data: Option prices, forward prices, spot prices, interest rates
+  - Volatility data: Implied volatilities, historical volatilities, volatility surfaces
+  - Dividend data: Dividend yields, dividend schedules, dividend forecasts
+  - Reference data: Risk-free rates, borrowing costs, transaction costs
+
+OUTPUT:
+  - Arbitrage opportunities: Put-call parity violations, forward parity, box spread arbitrage
+  - Conversion/reversal: Synthetic positions, arbitrage profits, execution strategies
+  - Volatility arbitrage: Implied vs realized volatility, volatility surface mispricing
+  - Synthetic instruments: Replication strategies, cost-benefit analysis, risk profiles
+
+PARAMETERS:
+  - transaction_costs: float = 0.001 (transaction cost as percentage of notional)
+  - borrowing_rate: float = None (borrowing rate for short positions)
+  - dividend_yield: float = None (continuous dividend yield)
+  - risk_free_rate: float = None (risk-free interest rate)
+  - min_profit_threshold: float = 0.0001 (minimum arbitrage profit threshold)
+"""
+
+"""
 Fincept Terminal - Arbitrage Detection and Replication Module
 ===========================================================
 

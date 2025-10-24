@@ -1,8 +1,22 @@
 """
-Reporting Module
-================
+===== DATA SOURCES REQUIRED =====
+INPUT:
+  - Economic analysis results and statistical outputs
+  - Time series data for visualization and reporting
+  - Economic indicators and model forecasts
+  - Comparative analysis data and benchmark results
 
-Visualization and export capabilities for economics analysis results.
+OUTPUT:
+  - Formatted economic reports and executive summaries
+  - Charts and graphs for economic trends and relationships
+  - Exportable data files in multiple formats (CSV, Excel, PDF)
+  - Interactive dashboards for economic monitoring
+
+PARAMETERS:
+  - report_format: Output format (default: 'html')
+  - chart_style: Visualization style preferences (default: 'professional')
+  - frequency: Report generation frequency (default: 'monthly')
+  - language: Report language (default: 'english')
 Generates professional charts, tables, and reports in multiple formats.
 """
 

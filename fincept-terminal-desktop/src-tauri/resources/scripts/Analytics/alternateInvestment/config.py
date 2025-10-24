@@ -1,6 +1,22 @@
 """
-Configuration and Constants for Alternative Investments Analytics
-CFA Institute Standards Compliant
+===== DATA SOURCES REQUIRED =====
+INPUT:
+  - Configuration parameters for alternative investment analytics
+  - Asset class definitions and categorizations
+  - Risk metrics and performance benchmark settings
+  - Market data configuration and API settings
+
+OUTPUT:
+  - Standardized configuration objects and enums
+  - Validation rules and parameter constraints
+  - Default values for analytics calculations
+  - Asset class mappings and metadata
+
+PARAMETERS:
+  - precision: Decimal precision for calculations (default: 8)
+  - base_currency: Base currency for reporting (default: 'USD')
+  - risk_free_rate: Default risk-free rate (default: 0.02)
+  - confidence_level: Default confidence for risk metrics (default: 0.95)
 """
 
 from decimal import Decimal, getcontext

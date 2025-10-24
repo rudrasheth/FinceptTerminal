@@ -1,4 +1,25 @@
 """
+===== DATA SOURCES REQUIRED =====
+INPUT:
+  - FX market data: Spot rates, forward rates, bid-ask spreads, trading volumes
+  - Interest rate data: Risk-free rates, yield curves, central bank policy rates
+  - Economic data: Inflation rates, GDP growth, balance of payments, monetary aggregates
+  - Market sentiment data: Risk appetites, carry trade flows, emerging market indicators
+
+OUTPUT:
+  - Exchange rate analysis: Fair value models, parity conditions, mispricing indicators
+  - Arbitrage analysis: Triangular arbitrage, forward premium/discount, carry trade opportunities
+  - Risk metrics: Currency volatility, Value at Risk, stress testing scenarios
+  - Policy impact: Central bank intervention effectiveness, capital controls analysis
+
+PARAMETERS:
+  - precision: int = 8 (decimal precision for FX calculations)
+  - base_currency: str = 'USD' (base currency for triangulation)
+  - carry_trade_threshold: float = 0.02 (minimum interest rate differential for carry trades)
+  - arbitrage_threshold: float = 0.0001 (minimum arbitrage profit threshold)
+"""
+
+"""
 Currency Analysis Module
 ========================
 
